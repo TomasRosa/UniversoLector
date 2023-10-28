@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Practica</title>
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <table id="table" class="table">
+        <tr>
+            <th>ID EMPLEADO</th>
+            <th>ID COMPANY</th>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>EMAIL</th>
+            <th>NOMBRE COMPANY</th>
+        </tr>
+    </table>
+    <form id="form" class="container mt-5"></form>
+        <div id="login-form" class="container mt-5">
+            <p id="logeo"></p>
+            <p>FORMULARIO DE INICIAR SESION.</p>
+            <h2 class="mb-4">Iniciar Sesión</h2>
+            <form id="login-form" class="login-form">
+              <div class="mb-3">
+                <label for="Nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email:</label>
+                <input type="text" id="email" name="email" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+          </div>
+          <div id="register-form-div" class="container mt-5">
+            <form id="register-form">
+              <p>FORMULARIO DE AGREGAR AL ARRAY.</p>
+             <h2 class="mb-4">Ingrese los siguientes datos</h2>
+             <!--
+              <div class="mb-3">
+                <label for="idEmpleado" class="form-label">ID EMPLEADO:</label>
+                <input type="text" id="idEmpleado" name="idEmpleado" class="form-control" required>
+              </div>
+             -->
+              <div class="mb-3">
+                <label for="idCompany" class="form-label">ID COMPANY:</label>
+                <input type="text" id="idCompany" name="idCompany" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="nombreRegister" class="form-label">NOMBRE:</label>
+                <input type="text" id="nombreRegister" name="nombreRegister" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="apellidoRegister" class="form-label">APELLIDO:</label>
+                <input type="text" id="apellidoRegister" name="apellidoRegister" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="emailRegister" class="form-label">EMAIL:</label>
+                <input type="text" id="emailRegister" name="emailRegister" class="form-control" required>
+              </div>
+                <!--
+                  <div class="mb-3">
+              
+                <label for="nombreCompanyRegister" class="form-label">NOMBRE COMPANY:</label>
+                <input type="text" id="nombreCompanyRegister" name="nombreCompanyRegister" class="form-control" required>
+              </div>
+                -->
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+</body>
+</html>
